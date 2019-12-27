@@ -1,6 +1,6 @@
 default: wukusicks
 
-wukusicks: wukusicks_v3.cpp
+wukusicks: wukusicks.cpp
 	@mkdir -p bin
 	g++ wukusicks.cpp -o bin/wukusick-converter
 
